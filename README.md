@@ -27,6 +27,7 @@ Entire VSCode setup here: https://laracasts.com/series/setup-a-mac-for-developme
 #### get icons from heroicons.comm
 
 npm install @tailwindcss/line-clamp
+
 require('@tailwindcss/line-clamp'),
 
 
