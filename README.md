@@ -1,3 +1,39 @@
+
+## Build a Voting App (Laracast Andre Madarang)
+https://github.com/drehimself/lc-voting
+
+
+## 02 Initial Setup and Design
+
+- composer create-project laravel/laravel lc-voting
+- composer require laravel/breeze --dev
+- php artisan breeze:install
+- npm install && npm run dev
+- npm run watch
+- php artisan serve
+
+https://zeplin.io/
+You can't actually design in it, you design in a design app like Figma or Sketch and publish it to Zeplin.
+
+
+Hi Andre, thanks for this super guide. But I've a stupid question, how do you use lc-voting.test instead of 127.0.0.1:8000?
+
+Check out Laravel Valet if you're on a Mac: https://laravel.com/docs/8.x/valet
+
+Tailwind Intellisense for VSCode: https://tailwindcss.com/docs/intellisense
+
+Entire VSCode setup here: https://laracasts.com/series/setup-a-mac-for-development-from-scratch/episodes/5
+
+#### get icons from heroicons.comm
+
+npm install @tailwindcss/line-clamp
+require('@tailwindcss/line-clamp'),
+
+
+## 03 Idea Cards
+
+
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
 
 <p align="center">

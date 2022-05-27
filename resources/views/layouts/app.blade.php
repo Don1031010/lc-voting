@@ -65,23 +65,20 @@
             aperiam voluptatem pariatur sint totam sequi soluta. Dolorum hic fugit obcaecati dignissimos.
         </div>
         <div class="w-175">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maiores labore aspernatur error magnam harum rem
-            quo, facilis tenetur eligendi reprehenderit dolores, aliquam nostrum deserunt odio esse velit. Quae natus
-            quod iste assumenda laborum est dignissimos qui voluptas! Dolorem dicta quia, pariatur beatae sint,
-            voluptatum, soluta culpa iste cum eligendi esse. In eaque quibusdam quos optio eligendi, debitis soluta!
-            Iusto deserunt laborum a aliquam aspernatur, cum reiciendis cupiditate minima sint eveniet quis molestiae
-            perferendis quo est assumenda. Corporis neque autem ad. Asperiores reiciendis distinctio itaque culpa
-            similique earum, exercitationem commodi, ab labore fugiat magnam quisquam tempore consectetur mollitia quod
-            reprehenderit ex.
-
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore temporibus ab in nemo ipsam fugiat maxime,
-            consectetur deleniti iste tempore molestias sapiente excepturi natus reiciendis non culpa? Dolor impedit
-            iste et itaque dignissimos dolores, quod pariatur enim? Nemo ut consectetur exercitationem totam officiis
-            ad, aut illum necessitatibus provident quia nulla porro? Saepe, culpa. Quasi adipisci laboriosam aliquid
-            quae illum aut quidem quo dolorem fugit incidunt, quibusdam exercitationem quod minima, provident soluta
-            iure, corrupti rerum temporibus! Architecto, quibusdam. Illum perferendis tenetur dolore, aliquid facere
-            expedita adipisci aspernatur natus, ipsum ratione quisquam quibusdam autem eligendi, esse veniam maxime
-            sequi. Eveniet, beatae minima.
+            <nav class="flex items-center justify-between text-xs">
+                <ul class="flex uppercase font-semibold border-b-4 pb-3 border-gray-200 space-x-10">
+                    <li><a href="#" class="border-b-4 pb-3 border-blue">All Ideas (87)</a></li>
+                    <li><a href="#" class="text-gray-400 transition duration-150 ease-in border-b-4 pb-3 border-gray-200 hover:border-blue">Considering (6)</a></li>
+                    <li><a href="#" class="text-gray-400 transition duration-150 ease-in border-b-4 pb-3 hover:border-blue">in progress (1)</a></li>
+                </ul>
+                <ul class="flex uppercase font-semibold border-b-4 pb-3 border-gray-200 space-x-10">
+                    <li><a href="#" class="text-gray-400 transition duration-150 ease-in border-b-4 pb-3 hover:border-blue">implemented (10)</a></li>
+                    <li><a href="#" class="text-gray-400 transition duration-150 ease-in border-b-4 pb-3 hover:border-blue">closed (55)</a></li>
+                </ul>
+            </nav>
+            <div class="mt-8">
+                {{ $slot }}
+            </div>
         </div>
     </main>
 </body>
